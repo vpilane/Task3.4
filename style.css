@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-    color: #222;
+    color: white;
     text-align: center; 
     margin-top: 30px;
     letter-spacing: 1px;
@@ -86,7 +86,7 @@ h1 {
 }
 
 #cont1 button {
-    background: #2d5a8c;
+    background: #3d8383;
     color: #fff;
     border: none;
     border-radius: 6px;
@@ -97,9 +97,8 @@ h1 {
     box-shadow: 0 2px 8px rgba(45,90,140,0.08);
 
 }
-
 #cont1 button:hover {
-    background: #18406a;
+    background: #27b6b6;
     transform: translateY(-2px) scale(1.03);
 }
 .blog_link {
@@ -109,7 +108,7 @@ h1 {
     margin-bottom: 40px;
 }
 .blog_link button {
-    background: #27b6b6;
+    background: #3d8383;
     color: #fff;
     border: none;
     border-radius: 6px;
@@ -128,6 +127,6 @@ h1 {
     
 }
 .blog_link button:hover {
-    background: #18406a;
+    background: #27b6b6;
     transform: translateY(-2px) scale(1.03);
 }
