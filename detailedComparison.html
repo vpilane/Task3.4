@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <div class="card-grid">
+
+        <div class="card">
+            <h3>1.1. Directory Structure</h3>
+            <ul>
+                <li><strong>Windows:</strong> Uses a drive-based structure (e.g., C:\Users\Vincent\Documents)</li>
+                <li><strong>macOS:</strong> Uses a UNIX-like structure (e.g., /Users/john/Documents)</li>
+                <li><strong>Linux:</strong> Uses a UNIX-like structure starting at / with folders like /home, /etc</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>1.2. File Paths</h3>
+            <ul>
+                <li><strong>Windows:</strong> Uses backslashes <code>\</code> → <code>C:\Program Files\App</code></li>
+                <li><strong>macOS & Linux:</strong> Use forward slashes <code>/</code> → <code>/usr/bin/app</code></li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>2. Naming Conventions</h3>
+            <ul>
+                <li><strong>Windows:</strong> Not case-sensitive, disallows <code>\ / : * ? " &lt; &gt; |</code></li>
+                <li><strong>macOS:</strong> Not case-sensitive, avoids <code>:</code></li>
+                <li><strong>Linux:</strong> Case-sensitive; disallows <code>/</code> and null character</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>3. File Systems</h3>
+            <ul>
+                <li><strong>Windows:</strong> NTFS, FAT32, exFAT</li>
+                <li><strong>macOS:</strong> APFS, HFS+, FAT32</li>
+                <li><strong>Linux:</strong> ext4; supports FAT32</li>
+                <li><strong>FAT:</strong> Used in USB/SD for cross-platform compatibility</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Executable File Types</h3>
+            <ul>
+                <li><strong>Windows:</strong> <code>.exe</code>, <code>.bat</code>, <code>.msi</code></li>
+                <li><strong>macOS:</strong> <code>.app</code> bundles, no extension needed</li>
+                <li><strong>Linux:</strong> No extension; defined by permissions</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Script Execution</h3>
+            <ul>
+                <li><strong>Windows:</strong> <code>.bat</code>, <code>.ps1</code> via CMD/PowerShell</li>
+                <li><strong>macOS:</strong> <code>.sh</code> scripts via Terminal</li>
+                <li><strong>Linux:</strong> <code>.sh</code>, <code>.py</code>, executable via <code>chmod +x</code></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="home_link">
+        <button><a href="index.html">Home</a></button>
+        <button><a href="osComparison.html">Back</a></button>
+    </div>
+</div>
+
+</body>
+</html>

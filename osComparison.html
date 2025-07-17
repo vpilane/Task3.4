@@ -8,11 +8,10 @@
 </head>
 <body>
     <div class="container">
-        <h1>🖥️ OS Comparison Blog</h1>
+        <h1>This blog compares the three major operating</h1>
+        <img src="media/Linux-vs-Windows-vs-Mac.png" alt="" width="100%" height="auto">
         <div class="card">
-            <p>
-                This blog compares the three major operating systems — <strong>Windows</strong>, <strong>macOS</strong>, and <strong>Linux</strong> — focusing on:
-            </p>
+            <h3>Comparison will be focusing on:</h3>
             <ul>
                 <li>File and directory structures</li>
                 <li>Naming conventions</li>
@@ -22,58 +21,19 @@
             </ul>
         </div>
 
-        <div class="blog-card">
-    <h2>Comparing Windows, macOS, and Linux Operating Systems</h2>
-    <h4>Files and Directories, Naming Conventions, and the File Allocation Table (FAT)</h4>
-    <h3>1.1. Directory Structure</h3>
-    <ul>
-         <li><strong>Windows:</strong> Uses a drive-based structure  (e.g., C:\Users\Vincent\Documents)<br> Drives like C:\  represent physical or logical storage.</li>
-        <li><strong>macOS:</strong> Uses a  UNIX-like structure (e.g., /Users/john/Documents), beginning at the root /.</li>
-        <li><strong>Linux:</strong> Also uses a UNIX-like structure, starting at / and branching into /home, /etc, /usr, etc</li>
-    </ul>
-
-    <h3>1.2. File Paths</h3>
-    <ul>
-        <li><strong>Windows:</strong> Uses backslashes <code>\</code> → <code>C:\Program Files\App</code></li>
-        <li><strong>macOS & Linux:</strong> Use forward slashes <code>/</code> → <code>/usr/bin/app</code></li>
-    </ul>
-
-    <h3>2. Naming Conventions</h3>
-    <ul>
-        <li><strong>Windows:</strong> Not case-sensitive, disallows <code>\ / : * ? " &lt; &gt; |</code></li>
-        <li><strong>macOS:</strong> Typically not case-sensitive but can be configured to be; avoids ":" in names <code>:</code></li>
-        <li><strong>Linux:</strong> Case-sensitive; disallows <code>/</code> and null character</li>
-    </ul>
-
-    <h3>3. File Systems</h3>
-    <ul>
-        <li><strong>Windows:</strong> NTFS, FAT32, exFAT</li>
-        <li><strong>macOS:</strong> APFS, HFS+, FAT32</li>
-        <li><strong>Linux:</strong> ext4; supports FAT32</li>
-        <li><strong>FAT:</strong> File Allocation Table – still used in USB drives/SD cards for cross-OS compatibility</li>
-    </ul>
-
-    <h4>Executable File Extensions</h4>
-
-    <h3>1. Executable File Types</h3>
-    <ul>
-        <li><strong>Windows:</strong> <code>.exe</code>, <code>.bat</code>, <code>.msi</code>, <code>.cmd</code></li>
-        <li><strong>macOS:</strong> No extension required, but apps are <code>.app</code> bundles</li>
-        <li><strong>Linux:</strong> No extension required; executability defined by permissions</li>
-    </ul>
-
-    <h3>2. Script Execution</h3>
-    <ul>
-        <li><strong>Windows:</strong> <code>.bat</code> for batch scripts, <code>.ps1</code> via PowerShell or CMD</li>
-        <li><strong>macOS:</strong> <code>.sh</code> or no extension shell scripts, run via Terminal using bash/zsh</li>
-        <li><strong>Linux:</strong> <code>.sh</code>, <code>.bash</code>, <code>.py</code>, executable with <code>chmod +x</code></li>
-    </ul>
-    <div class="home_link">
-        <button >
-            <a href="index.html" >
-                Home
-            </a>
-        </button>
+        
+        <div class="home_link">
+            <button >
+                <a href="index.html" >
+                    Home
+                </a>
+            </button>
+            <button >
+                <a href="detailedComparison.html" >
+                    Detailed Comparison
+                </a>
+            </button>
+        </div>
     </div>
 </body>
 </html>

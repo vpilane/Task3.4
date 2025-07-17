@@ -24,7 +24,7 @@ body {
             margin-bottom: 12px;
         }
         ul {
-            background: #f0f4f8;
+            background: #47a082;
             border-radius: 8px;
             padding: 16px 24px;
             margin-bottom: 24px;
@@ -50,65 +50,20 @@ body {
             text-decoration: underline;
         }
         .card {
-            background: #e9f5ff;
+            background: #47a082;
             border-left: 6px solid #3182ce;
             padding: 18px 24px;
             border-radius: 10px;
             margin-bottom: 24px;
         }
-        .blog-card {
-    background: #ffffffef;
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 4px 14px rgba(0,0,0,0.1);
-    font-family: 'Segoe UI', Arial, sans-serif;
-    color: #222;
-    line-height: 1.7;
-}
-
-.blog-card h2 {
-    color: #2d5a8c;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.blog-card h4 {
-    color: #444;
-    font-size: 16px;
-    margin-bottom: 25px;
-    text-align: center;
-}
-
-.blog-card h3 {
-    color: #2d5a8c;
-    margin-top: 20px;
-    margin-bottom: 8px;
-    font-size: 18px;
-}
-
-.blog-card ul {
-    padding-left: 20px;
-    margin-bottom: 15px;
-}
-
-.blog-card li {
-    margin-bottom: 8px;
-}
-
-.blog-card code {
-    background-color: #eef0f3;
-    padding: 2px 5px;
-    border-radius: 4px;
-    font-family: monospace;
-}
 
 
 .home_link {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
     margin-bottom: 40px;
 }
 .home_link button {

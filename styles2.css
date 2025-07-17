@@ -1,0 +1,98 @@
+body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #ced5db;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #35aa79b7;
+            border-radius: 16px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+            padding: 32px 40px;
+        }
+       
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 16px;
+            color: #2d3748;
+        }
+        h2 {
+            color: #3182ce;
+            margin-top: 32px;
+            margin-bottom: 12px;
+        }
+        ul {
+            background: #47a082;
+            border-radius: 8px;
+            padding: 16px 24px;
+            margin-bottom: 24px;
+        }
+        li {
+            margin-bottom: 8px;
+            font-size: 1.08rem;
+        }
+        img {
+            display: block;
+            margin: 0 auto 16px auto;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+        }
+        a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        a:hover {
+            color: #1e40af;
+            text-decoration: underline;
+        }
+        .card {
+            background: #47a082;
+            border-left: 6px solid #3182ce;
+            padding: 18px 24px;
+            border-radius: 10px;
+            margin-bottom: 24px;
+        }
+
+
+.home_link {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.home_link button {
+    background: #27b6b6;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 32px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 2px 8px rgba(45,90,140,0.08);
+
+}
+
+.home_link button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+.home_link button:hover {
+    background: #18406a;
+    transform: translateY(-2px) scale(1.03);
+}
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    margin-top: 24px;
+}
