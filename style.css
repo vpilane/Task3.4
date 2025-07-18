@@ -1,3 +1,33 @@
+img {
+    display: block;
+    margin: 0 auto 16px auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    max-width: 100%;
+    height: auto;
+}
+
+.media-responsive {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 24px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 16px 4vw;
+    }
+    h1 {
+        font-size: 1.6rem;
+    }
+    img, .media-responsive img, .media-responsive video {
+        max-width: 100%;
+        height: auto;
+    }
+}
 body {
     background-color: #f4f4f4;
     background-image: url('/media/backg.jpeg');
